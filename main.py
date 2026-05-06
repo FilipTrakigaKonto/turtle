@@ -8,6 +8,7 @@ turtle.colormode(255)
 t.speed(0)
 t.hideturtle()
 h = 0
+turtle.tracer(0, 0)
 
 
 
