@@ -8,6 +8,9 @@ turtle.colormode(255)
 t.speed(0)
 t.hideturtle()
 h = 0
+turtle.tracer(0, 0)
+
+
 def rita_triangel(sida):
     for i in range(3):
         t.forward(sida)
@@ -48,7 +51,9 @@ def main():
     length = input_length
     depth = input_depth
     sierpinski(length, depth)
+    turtle.update()
 
     turtle.done()
+
 
 main()
