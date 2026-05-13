@@ -1,4 +1,7 @@
 import math
+import _tkinter as tk #i need help i dont understand this
+import cmath
+
 
 matte = {
     "abs": abs,
@@ -17,6 +20,37 @@ matte = {
     "sin": math.sin,
     "sqrt": math.sqrt,
     "tan": math.tan,
+    "fac": math.factorial,
+    "fmod": math.fmod,
+    "remainder": math.remainder,
+    "dist": math.dist,
+    "deg": math.degrees,
+    "rad": math.radians,
+    "comp": cmath.phase,
+    "polar": cmath.polar,
+    "rec": cmath.rect,
+    "cexp": cmath.exp,
+    "clog": cmath.log,
+    "clog10": cmath.log10,
+    "csqrt": cmath.sqrt,
+    "casin": cmath.asin,
+    "cacos": cmath.acos,
+    "catan": cmath.atan,
+    "csin": cmath.sin,
+    "ccos": cmath.cos,
+    "ctan": cmath.tan,
+    "casin": cmath.asin,
+    "cacos": cmath.acos,
+    "catan": cmath.atan,
+    "casinh": cmath.asinh,
+    "csinh": cmath.sinh,
+    "cacosh": cmath.acosh,
+    "ccosh": cmath.cosh,
+    "catanh": cmath.atanh,
+    "ctanh": cmath.tanh,
+    "cisinf": cmath.isinf,
+    "cinf": cmath.inf
+
 }
 
 
